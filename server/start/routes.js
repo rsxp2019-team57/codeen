@@ -15,7 +15,7 @@ Route.get('/', () => {
 
 
 // Home
-Route.post('/login', ({ params }) => { return { mentor: params.username == 'mentor' } })
+Route.post('/login', ({ request }) => { return { mentor: (request.input('username') === 'mentor') } })
 
 // Courses
 Route.get('/courses', () => {
