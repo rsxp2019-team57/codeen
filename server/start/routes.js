@@ -32,9 +32,9 @@ Route.get('/courses', () => {
 // Courses Lessons (ou Etapas e depois Lessons?)
 Route.get('/courses/:id', ({ params }) => {
   return [
-    { name: 'Lógica Básica 1', finished: true },
-    { name: 'Lógica Básica 2', finished: false },
-    { name: 'Lógica Básica 3', finished: false }
+    { name: 'Lógica Básica 1', finished: true, color: '#eeaabb' },
+    { name: 'Lógica Básica 2', finished: false, color: '#bbeeaa' },
+    { name: 'Lógica Básica 3', finished: false, color: '#eeaaee' }
   ]
 })
 
