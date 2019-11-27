@@ -2,29 +2,29 @@
 
 https://xd.adobe.com/view/8b954554-5154-478d-4e86-ca077d9e2a6b-fda4/
 
-# MVP
+# Como um usuário novo (público) ...
 
-- Login 
+- [M] Fazer Login 
 
-- Mentores ( crud)
-	//- cobrança das mentorias
+# Como um aluno ...
 
-- Cursos ( crud)
-	- cursos de direcionamento
+- [M] Ver Cursos 
+- [ ] Assistir Vídeos 
+- [ ] Marcar vídeos como assistidos
+- [ ] Seguir um mentor
 
-- CuradoriaVideos( crud )
-	- videos de direcionamento de conteúdo para alunos
+# Como um mentor...
 
-- Alunos ( crud )
-	//- podem escolher um mentor
+- [M] Responder perguntas de alunos
+- [ ] Adminsitrar Escolas onde serão ministradas as palestras
+- [ ] Administrar Palestras dadas em escolas (captação de alunos 15 a 19 anos)
+- [ ] Administrar meus Cursos
+- [ ] Adminsitrar Etapas de Cursos
+- [ ] Administrar Vídeos de conteúdo para alunos
+- [ ] Agendar mentorias com Alunos
+- [ ] Acompanhar Alunos mentorados
 
-# Mentoria
+# Caminhos obrigatórios
 
-- Palestras ( crud )
-	- captação de alunos ( 15 - 19 anos )
-
-- Escolas ( crud )
-	- escolar onde serão ministradas as palestras
-
-- CuradoriaVideos( crud )
-	- videos de direcionamento de conteúdo para alunos
+- [ ] Logout
+- [ ] Signup
