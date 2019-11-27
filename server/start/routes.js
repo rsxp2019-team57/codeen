@@ -15,17 +15,17 @@ Route.get('/', () => {
 
 
 // Home
-Route.post('/login', ({ params }) => { return { mentor: params.username == 'mentor' } })
+Route.post('/login', ({ request }) => { return { mentor: (request.input('username') === 'mentor') } })
 
 // Courses
 Route.get('/courses', () => {
   return [
-    { name: 'Lógica Básica', color: '#eeaabb' },
-    { name: 'Shell', color: '#eebbaa' },
-    { name: 'Linux', color: '#bbeeaa' },
-    { name: 'GitHub', color: '#eeaabb' },
-    { name: 'HTML', color: '#ee99bb' },
-    { name: 'CSS', color: '#eeaaee' },
+    { id: 1, name: 'Lógica Básica', color: '#eeaabb' },
+    { id: 2, name: 'Shell', color: '#eebbaa' },
+    { id: 3, name: 'Linux', color: '#bbeeaa' },
+    { id: 4, name: 'GitHub', color: '#eeaabb' },
+    { id: 5, name: 'HTML', color: '#ee99bb' },
+    { id: 6, name: 'CSS', color: '#eeaaee' },
   ]
 })
 

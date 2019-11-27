@@ -1,26 +1,30 @@
-# MVP
+# Adobe XD Prototype:
 
-- Login 
+https://xd.adobe.com/view/8b954554-5154-478d-4e86-ca077d9e2a6b-fda4/
 
-- Mentores ( crud)
-	//- cobrança das mentorias
+# Como um usuário novo (público) ...
 
-- Cursos ( crud)
-	- cursos de direcionamento
+- [M] Fazer Login 
 
-- CuradoriaVideos( crud )
-	- videos de direcionamento de conteúdo para alunos
+# Como um aluno ...
 
-- Alunos ( crud )
-	//- podem escolher um mentor
+- [M] Ver Cursos 
+- [ ] Assistir Vídeos 
+- [ ] Marcar vídeos como assistidos
+- [ ] Seguir um mentor
 
-# Mentoria
+# Como um mentor...
 
-- Palestras ( crud )
-	- captação de alunos ( 15 - 19 anos )
+- [M] Responder perguntas de alunos
+- [ ] Adminsitrar Escolas onde serão ministradas as palestras
+- [ ] Administrar Palestras dadas em escolas (captação de alunos 15 a 19 anos)
+- [ ] Administrar meus Cursos
+- [ ] Adminsitrar Etapas de Cursos
+- [ ] Administrar Vídeos de conteúdo para alunos
+- [ ] Agendar mentorias com Alunos
+- [ ] Acompanhar Alunos mentorados
 
-- Escolas ( crud )
-	- escolar onde serão ministradas as palestras
+# Caminhos obrigatórios
 
-- CuradoriaVideos( crud )
-	- videos de direcionamento de conteúdo para alunos
+- [ ] Logout
+- [ ] Signup
