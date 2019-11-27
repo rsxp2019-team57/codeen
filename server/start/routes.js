@@ -36,7 +36,7 @@ Route.get('/courses/:id', ({ params }) => {
 })
 
 // Lesson
-Route.get('/courses/:id', ({ params }) => {
+Route.get('/lessons/:id', ({ params }) => {
   return { name: 'Lógica Básica 1', video_url: 'http://www.youtube.com/watch?v=CkTQUtx818w' }
 })
 
