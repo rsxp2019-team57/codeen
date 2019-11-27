@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "node ace test",
-    "migrate": "adonis migration:run"
+    "migrate": "ENV_SILENT=true node ace migration:run — force"
   },
   "keywords": [
     "adonisjs",
@@ -28,9 +28,9 @@
     "@adonisjs/vow": "^1.0.17",
     "pg": "^7.14.0"
   },
-  "devDependencies": {
-    "sqlite3": "^4.1.0"
-  },
+  // "devDependencies": {
+  //   "sqlite3": "^4.1.0"
+  // },
   "autoload": {
     "App": "./app"
   }
