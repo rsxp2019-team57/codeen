@@ -20,21 +20,21 @@ Route.post('/login', ({ request }) => { return { mentor: (request.input('usernam
 // Courses
 Route.get('/courses', () => {
   return [
-    { id: 1, name: 'Lógica Básica', color: '#eeaabb' },
-    { id: 2, name: 'Shell', color: '#eebbaa' },
-    { id: 3, name: 'Linux', color: '#bbeeaa' },
-    { id: 4, name: 'GitHub', color: '#eeaabb' },
-    { id: 5, name: 'HTML', color: '#ee99bb' },
-    { id: 6, name: 'CSS', color: '#eeaaee' },
+    { id: 1, name: 'Lógica Básica', color: '#A693EB' },
+    { id: 2, name: 'Shell', color: '#FF9B9B' },
+    { id: 3, name: 'Linux', color: '#93CAEB' },
+    { id: 4, name: 'GitHub', color: '#89DD94' },
+    { id: 5, name: 'HTML', color: '#A693EB' },
+    { id: 6, name: 'CSS', color: '#FF9B9B' },
   ]
 })
 
 // Courses Lessons (ou Etapas e depois Lessons?)
 Route.get('/courses/:id', ({ params }) => {
   return [
-    { name: 'Lógica Básica 1', finished: true, color: '#eeaabb' },
-    { name: 'Lógica Básica 2', finished: false, color: '#bbeeaa' },
-    { name: 'Lógica Básica 3', finished: false, color: '#eeaaee' }
+    { name: 'Lógica Básica 1', finished: true, color: '#A693EB' },
+    { name: 'Lógica Básica 2', finished: false, color: '#FF9B9B' },
+    { name: 'Lógica Básica 3', finished: false, color: '#93CAEB' }
   ]
 })
 
