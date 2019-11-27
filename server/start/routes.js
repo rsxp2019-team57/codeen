@@ -6,6 +6,9 @@ const Route = use('Route')
 Route.post('users', 'UserController.store')
 Route.post('sessions', 'SessionController.store')
 Route.post('alunos', 'AlunoController.store')
+
+Route.get('alunos', 'AlunoController.index')
+
 Route.get('/', () => {
   return { greeting: 'Hello world in JSON' }
 })

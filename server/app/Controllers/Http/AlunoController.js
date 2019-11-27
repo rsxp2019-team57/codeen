@@ -4,6 +4,13 @@ const Aluno = use('App/Models/Aluno')
 
 class AlunoController {
 
+  async index({ request }) {
+
+    const data = Aluno.all()
+
+    return data
+
+  }
 
   async store({ request }) {
 
@@ -16,6 +23,8 @@ class AlunoController {
 
 
   async show({ params, request, response, view }) {
+
+
   }
 
   async update({ params, request, response }) {
