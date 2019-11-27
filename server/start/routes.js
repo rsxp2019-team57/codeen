@@ -17,12 +17,12 @@ Route.post('/login', ({ params }) => { return { mentor: params.username == 'ment
 // Courses
 Route.get('/courses', () => {
   return [
-    { name: 'Lógica Básica' },
-    { name: 'Shell' },
-    { name: 'Linux' },
-    { name: 'GitHub' },
-    { name: 'HTML' },
-    { name: 'CSS' },
+    { name: 'Lógica Básica', color: '#eeaabb' },
+    { name: 'Shell', color: '#eebbaa' },
+    { name: 'Linux', color: '#bbeeaa' },
+    { name: 'GitHub', color: '#eeaabb' },
+    { name: 'HTML', color: '#ee99bb' },
+    { name: 'CSS', color: '#eeaaee' },
   ]
 })
 
