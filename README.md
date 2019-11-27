@@ -6,6 +6,7 @@ Increase the culture of coding among teenagers
 
 - [Project](doc/Project.md)
 - [Roadmap](doc/Roadmap.md)
+- [Server](doc/Server.md)
 
 # Production:
 
