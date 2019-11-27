@@ -47,6 +47,7 @@ Route.get('/questions/open', ({ params }) => {
   return [
     { id: 1, question: 'O que é um boolean??' },
     { id: 2, question: 'Onde está o tio Phill?' }
+  ]
 })
 
 // Responder uma pergunta
